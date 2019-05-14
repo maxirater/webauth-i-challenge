@@ -15,7 +15,7 @@ class LoginComponent extends React.Component {
         e.preventDefault()
 
         axios
-            .post("http://localhost:5000/api/register", this.state)
+            .post("https://localhost:5000/api/register", this.state)
             .then(res => console.log(res).catch(err => console.log(err)))
     }
 
